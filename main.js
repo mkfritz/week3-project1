@@ -49,7 +49,7 @@ var seventhGrade = function(splitsies) {
 }
 
 splitsies(teammates);
-// this totally doesn't work. can't figure out how to use splice either. 
+// this totally doesn't work. can't figure out how to use splice either. i think i still have to go back and finish the loop homework. 
 //s1. Create odd and even empty arrays
 //s2. Start with a loop because it will send the server through the array according to your specifications
 //s3. Start pushing teammates into each array using odd.push/even.push
