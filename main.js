@@ -3,6 +3,15 @@
 // 1. Define a function called "divideByTwo". It should accept one parameter called "number".
 //    The function should divide the number by two and output the answer.
 
+console.log("Question 1");
+
+function divideByTwo(x) {
+  x = x / 2; 
+  console.log(x)
+}
+
+divideByTwo(10);
+
 // 2. Define a function called "greeting". It should accept two parameters, which will be names.
 //    The function should output the a greeting to both people.
 
