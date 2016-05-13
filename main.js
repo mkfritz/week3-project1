@@ -39,6 +39,22 @@ cashews(4);
 //    No names next to eachother in the array should be on the same team.
       teammates = ["Harold", "Bob", "Sue", "Grady", "Notorious B.I.G.", "JavaCrypt", "Weird guy in the back", "Gary", "Carol", "Hipster Tim", "Janet"]
 
+ console.log("Question 4");
+
+var seventhGrade = function(splitsies) {
+  teamOne = [teammates[0], teammates[2], teammates[4], teammates[6], teammates[8], teammates[10]];
+  teamTwo = [teammates[1], teammates[3], teammates[5], teammates[7], teammates[9]];
+  console.log(teamOne);
+  console.log(teamTwo);
+}
+
+splitsies(teammates);
+// this totally doesn't work. can't figure out how to use splice either. 
+//s1. Create odd and even empty arrays
+//s2. Start with a loop because it will send the server through the array according to your specifications
+//s3. Start pushing teammates into each array using odd.push/even.push
+//pkohn's kind of works but not really
+
 // 5. Define a function called "quarter". It accepts one parameter called "number".
 //    The function will return a value which is one quarter of the number provided.
 
