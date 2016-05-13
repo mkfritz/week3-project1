@@ -6,8 +6,8 @@
 console.log("Question 1");
 
 function divideByTwo(x) {
-  x = x / 2; 
-  console.log(x)
+  y = x / 2; 
+  console.log(y)
 }
 
 divideByTwo(10);
@@ -15,8 +15,25 @@ divideByTwo(10);
 // 2. Define a function called "greeting". It should accept two parameters, which will be names.
 //    The function should output the a greeting to both people.
 
+console.log("Question 2");
+
+var greeting = function(person, otherPerson) {
+  console.log("I'm a " + person + " and a " + otherPerson);
+} 
+
+greeting("boy", "girl");
+
 // 3. You use Amazon Subscribe & Save to have six cans of cashews automatically sent to you each month, but the price keeps changing.
 //    Write a function that takes the price per unit and calculates the total for you each month.
+
+console.log("Question 3");
+
+var cashews = function(unitPrice) {
+  total = unitPrice * 6;
+  console.log(total);
+}
+
+cashews(4);
 
 // 4. Write a function that accepts the following array and separates the people into two teams.
 //    No names next to eachother in the array should be on the same team.
